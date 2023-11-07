@@ -59,32 +59,32 @@
             // 
             // conversionlable
             // 
-            this.conversionlable.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.conversionlable.Location = new System.Drawing.Point(12, 247);
+            this.conversionlable.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conversionlable.Location = new System.Drawing.Point(2, 247);
             this.conversionlable.Name = "conversionlable";
-            this.conversionlable.Size = new System.Drawing.Size(274, 23);
+            this.conversionlable.Size = new System.Drawing.Size(317, 23);
             this.conversionlable.TabIndex = 2;
             this.conversionlable.Text = "Enter conversion choise(1-4):";
             // 
             // optioninput
             // 
-            this.optioninput.Location = new System.Drawing.Point(281, 247);
+            this.optioninput.Location = new System.Drawing.Point(335, 247);
             this.optioninput.Name = "optioninput";
             this.optioninput.Size = new System.Drawing.Size(119, 22);
             this.optioninput.TabIndex = 3;
             // 
             // valuelable
             // 
-            this.valuelable.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.valuelable.Location = new System.Drawing.Point(12, 285);
+            this.valuelable.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.valuelable.Location = new System.Drawing.Point(2, 284);
             this.valuelable.Name = "valuelable";
-            this.valuelable.Size = new System.Drawing.Size(263, 23);
+            this.valuelable.Size = new System.Drawing.Size(317, 23);
             this.valuelable.TabIndex = 4;
             this.valuelable.Text = "Enter Value to be converted:";
             // 
             // valueinput
             // 
-            this.valueinput.Location = new System.Drawing.Point(281, 285);
+            this.valueinput.Location = new System.Drawing.Point(335, 285);
             this.valueinput.Name = "valueinput";
             this.valueinput.Size = new System.Drawing.Size(119, 22);
             this.valueinput.TabIndex = 5;

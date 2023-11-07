@@ -31,19 +31,23 @@ namespace WindowsFormsApp1
             double total = 0.00;
             if (choise == 1) 
             {
-                total = value * 2.54;
+                total = InchesToCm(value);
+                conversionoutput.Text = $"{total}";
             }
             else if (choise == 2)
             {
-                total = value * 30.48;
+                total = FeetToCM(value);
+                conversionoutput.Text = $"{total}";
             }
             else if (choise == 3)
             {
-                total = value * 0.91;
+                total = YardsToMeters(value);
+                conversionoutput.Text = $"{total}";
             }
             else if (choise == 4)
             {
-                total = value * 1.6;
+                total = MilesToKm(value);
+                conversionoutput.Text = $"{total}";
 
             }
             else
@@ -55,5 +59,26 @@ namespace WindowsFormsApp1
             
 
         }
+
+        public double InchesToCm(double inches)
+        {
+            return inches * 2.54;
+
+        }
+        public double FeetToCM(double feet)
+        {
+            return feet * 30.48;
+        }
+
+        public double YardsToMeters(double yards)
+        {
+            return yards * 0.91;
+        }
+        public double MilesToKm(double miles)
+        {
+            return miles * 1.6;
+        }
     }
+
+
 }
